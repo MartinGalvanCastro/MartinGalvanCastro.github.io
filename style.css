@@ -1,0 +1,189 @@
+/*---------------------------------
+# Author: Martin David Galvan Castro
+-----------------------------------*/
+
+/*---------------------------------
+# General
+----------------------------------*/
+#section-header {
+  text-align: center;
+}
+
+.card{
+  filter: drop-shadow(0 0 0.3rem #0D0D0D);
+}
+
+section{
+  padding-top:100px;
+}
+
+.section-content {
+  margin-top: 3%; /*Separación entre las secciones y el titulo*/
+}
+
+main{
+  background:#E5E5E5;
+  margin-bottom: 0;
+  z-index:1;
+  font-size: calc(0.50em + 1vmin);
+}
+
+#section-header h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom:0%;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+body{
+  font-family:Ubuntu;
+  background:#E5E5E5;
+}
+
+
+/*---------------------------------
+#  Header (Banner)
+----------------------------------*/
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  text-align: right;
+}
+
+header:not([id="section-header"]){
+  min-height: 90vh;
+  text-align: center;
+}
+
+header i{
+  font-size: 100px;
+  color:black;
+}
+
+header img{
+  min-height: 90vh;
+  
+}
+
+
+/*---------------------------------
+#  NavBar
+----------------------------------*/
+nav {
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding-left: 4%; /*Padding para que no quede tan al borde*/
+}
+
+.navbar-text{
+  padding-right: 2%;
+}
+
+/*---------------------------------
+#  About Me
+----------------------------------*/
+
+.info-list {
+  list-style-type: none;
+}
+
+#img-perfil{
+  filter: drop-shadow(0 0 0.3rem #0D0D0D);
+}
+
+.fa-li {
+  margin-left: 0%;
+  padding-right: 4%;
+}
+
+.info-text{
+  
+  text-align: justify;
+}
+
+/*---------------------------------
+#  Projects
+----------------------------------*/
+
+
+/*---------------------------------
+#  Skills
+----------------------------------*/
+#skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+#skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  color: #45505b;
+}
+
+#skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+#skills .progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+#skills .progress-bar {
+  height: 15px;
+  transition: 0.9s;
+  background-color: #2062A8;
+}
+
+#skills footer span{
+    font-size:x-small;
+}
+
+
+/*---------------------------------
+#  Professional Trajectory
+----------------------------------*/
+#professional .card{
+  margin-top:15px;
+}
+
+#professional .card-header{
+  text-align: center
+}
+
+.trajectory-list li{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.trajectory-list li span{
+    padding-left: 5%;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*---------------------------------
+#  Foooter
+----------------------------------*/
+#copyright{
+  text-align:right;
+  padding-right: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#cv-cinfo{
+  text-align:left;
+  padding-left:100px;
+  
+}
