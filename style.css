@@ -94,6 +94,7 @@ nav {
 
 #img-perfil{
   filter: drop-shadow(0 0 0.3rem #0D0D0D);
+  
 }
 
 .fa-li {
@@ -179,11 +180,29 @@ nav {
   text-align:right;
   padding-right: 2%;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-top:0%;
+  margin-bottom:0%;
+  padding-bottom:0%;
+  margin-bottom:0%;
 }
 
-#cv-cinfo{
-  text-align:left;
-  padding-left:100px;
-  
+#contact{
+  margin-top:0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:0%;
+  padding-bottom:0%;
+  margin-bottom:0%;
+}
+
+#contactInfo{
+  margin-top:0%;
+  margin-bottom:0%;
+  padding-bottom:0%;
+  margin-bottom:0%;
+  text-align:right;
+}
+
+#location{
+  text-align: center;
 }
