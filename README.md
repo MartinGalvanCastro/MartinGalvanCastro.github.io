@@ -2,4 +2,5 @@
 ---
 ## Descripcion:
 Este es mi sitio web personal, lo construi usando HTML, CSS y Bootstrap
-[Link to website](MartinGalvanCastro.github.io)
+
+[Link to website](martingalvancastro.github.io)
