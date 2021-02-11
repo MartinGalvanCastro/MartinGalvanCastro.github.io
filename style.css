@@ -66,45 +66,32 @@ header i{
   font-size:4em;
   color:white;
   /*Bordes para dar contraste*/
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  filter: drop-shadow(0 0 0.6rem #0D0D0D);/*Efecto 3D*/
 }
 
 /*Jumbotron banner*/
 #banner .jumbotron{
-  padding:0;
+  padding-top:5%;
   background-image: url("./imgs/banner.jpg");
   color:white;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 /*Texto Jumbotron*/
 #banner .jumbotron #banner-text{
   /*Centrar en el div*/
   text-align: center;
-  margin: 0;
-  padding:0;
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
-  /*Bordes para dar contraste*/
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-}
-
-/*Titulo*/
-#banner .jumbotron #banner-text #welcome{
-  font-size:12em;
-}
-
-/*Texto inferior*/
-#banner .jumbotron #banner-text .lead{
-  font-size:3em;
+  width: 100%;
+  filter: drop-shadow(0 0 0.6rem #0D0D0D);/*Efecto 3D*/
+  
 }
 
 /*Musica*/
@@ -114,6 +101,14 @@ header i{
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+#banner .jumbotron #banner-text #welcome{
+  font-size: 15vw;
+}
+
+#banner .jumbotron #banner-text .lead{
+  font-size: 4vw;
 }
 
 
