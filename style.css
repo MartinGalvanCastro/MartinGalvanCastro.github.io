@@ -9,11 +9,9 @@
 /*Fuentes*/
 h1,h2,h3,h4,h5{
   font-family: 'Bebas Neue', cursive;
-  font-size: calc(2em + 1vmin);
 }
-p,span,li,#copyright{
+p,span,li,#copyright,a{
   font-family: 'Roboto', sans-serif;
-  font-size: calc(0.50em + 1vmin);
 }
 
 /*Encabezados de las secciones*/
@@ -42,6 +40,7 @@ main{
   z-index:1;
 }
 
+/*Titulos de seccion*/
 #section-header h2{
   text-align: center;
   text-transform: uppercase;
@@ -66,8 +65,12 @@ body{
 header i{
   font-size:4em;
   color:white;
+  /*Bordes para dar contraste*/
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
+/*Jumbotron banner*/
 #banner .jumbotron{
   padding:0;
   background-image: url("./imgs/banner.jpg");
@@ -77,25 +80,34 @@ header i{
   background-size: cover;
 }
 
+/*Texto Jumbotron*/
 #banner .jumbotron #banner-text{
+  /*Centrar en el div*/
   text-align: center;
   margin: 0;
   padding:0;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
+  /*Bordes para dar contraste*/
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
+/*Titulo*/
 #banner .jumbotron #banner-text #welcome{
   font-size:12em;
 }
 
+/*Texto inferior*/
 #banner .jumbotron #banner-text .lead{
   font-size:3em;
 }
 
+/*Musica*/
 #banner .jumbotron #music{
   margin: 0;
   padding:0;
@@ -104,6 +116,8 @@ header i{
   left: 0;
 }
 
+
+
 /*---------------------------------
 #  NavBar
 ----------------------------------*/
@@ -111,12 +125,20 @@ nav {
   margin-bottom: 0px;
 }
 
+.navbar-brand{
+  font-size:2em;
+}
+
+.navbar-link{
+  font-size:2em;
+}
+
 .navbar-brand {
   padding-left: 4%; /*Padding para que no quede tan al borde*/
 }
 
 .navbar-text{
-  padding-right: 2%;
+  padding-right: 2%;  /*Sepracación entre item*/
 }
 
 /*---------------------------------
@@ -124,32 +146,31 @@ nav {
 ----------------------------------*/
 
 .info-list {
-  list-style-type: none;
+  list-style-type: none;  /*Quitar bullets para cambiar por iconos*/
 }
 
 #img-perfil{
-  filter: drop-shadow(0 0 0.3rem #0D0D0D);
-  
+  filter: drop-shadow(0 0 0.3rem #0D0D0D);/*Efecto 3D*/
+
 }
 
+  /*Distancia entre letra e iconos*/
 .fa-li {
   margin-left: 0%;
   padding-right: 4%;
 }
 
+/*Texto justificado*/
 .info-text{
-  
   text-align: justify;
 }
-
-/*---------------------------------
-#  Projects
-----------------------------------*/
 
 
 /*---------------------------------
 #  Skills
 ----------------------------------*/
+
+/*CSS para barras de progreso*/
 #skills .progress {
   height: 50px;
   display: block;
@@ -188,6 +209,8 @@ nav {
 /*---------------------------------
 #  Professional Trajectory
 ----------------------------------*/
+
+/*Css para las tarjetas e items*/
 #professional .card{
   margin-top:15px;
 }
@@ -240,4 +263,5 @@ nav {
 
 #location{
   text-align: center;
+  font-size:small;
 }
