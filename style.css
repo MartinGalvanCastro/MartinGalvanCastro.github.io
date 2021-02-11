@@ -39,6 +39,8 @@ main{
 body{
   font-family:Ubuntu;
   background:#E5E5E5;
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -46,12 +48,7 @@ body{
 #  Header (Banner)
 ----------------------------------*/
 
-.centered {
-  position: absolute;
-  top: 30%;
-  left: 60%;
-  text-align: right;
-}
+
 
 header:not([id="section-header"]){
   min-height: 90vh;
@@ -60,14 +57,35 @@ header:not([id="section-header"]){
 
 header i{
   font-size: 100px;
-  color:black;
+  color:white;
 }
 
-header img{
-  min-height: 90vh;
-  
+#banner .jumbotron{
+  background-image: url("./imgs/banner.jpg");
+  color:white;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+#banner .jumbotron #banner-text{
+  margin: 0;
+  padding:0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#banner .jumbotron #music{
+  margin: 0;
+  padding:0;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
 
 /*---------------------------------
 #  NavBar
